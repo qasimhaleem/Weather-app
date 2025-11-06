@@ -18,10 +18,10 @@ export default function WeatherApp() {
 
     try {
       // Replace 'YOUR_API_KEY_HERE' with your actual OpenWeatherMap API key
-const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-const response = await fetch(
-  `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${API_KEY}&units=metric`
-);
+      const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid='f9bbdf7df8de1ce9d9a4a905b3f7dbd3'&units=metric`
+      );
       if (!response.ok) {
         throw new Error('City not found');
       }
