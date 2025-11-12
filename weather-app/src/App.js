@@ -18,7 +18,7 @@ export default function WeatherApp() {
 
     try {
       const response = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=f9bbdf7df8de1ce9d9a4a905b3f7dbd3&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=c11bb477f3667208795f73e68da0df3b&units=metric`
 
       );
       if (!response.ok) {
