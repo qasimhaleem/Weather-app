@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Cloud, CloudRain, Sun, Wind, Droplets, Eye, Gauge, Search, MapPin } from 'lucide-react';
-import { WEATHER_API_KEY } from './config';
 export default function WeatherApp() {
   const [city, setCity] = useState('');
   const [searchCity, setSearchCity] = useState('Peshawar');
